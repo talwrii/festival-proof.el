@@ -6,7 +6,7 @@
 ;; Version: 0.0.1
 ;; Keywords:
 ;; URL: http://github.com/talwrii/festival-proof
-;; Package-Requires: ((s "0") (festival "0" ))
+;; Package-Requires: ((s "0") (festival "0") (dash "0"))
 ;;
 ;; This file is not part of GNU Emacs.
 

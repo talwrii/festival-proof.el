@@ -14,3 +14,11 @@ This package is a convenience wrapper around the festival library in emacs.
 Basic usage:
  * Bind festival-proof-say-sentence to a key and use it to read sentences.
  * You can increase and decrease speed using festival-proof-faster and festival-proof-slower
+
+# Installation
+
+Using [straight](https://github.com/raxod502/straight.el#install-packages) at the following to your `init.el` file. Packages installed with straight can happily coexist those installed with `package.el`.
+
+```
+(straight-use-package '(festival-proof :type git :host github :repo "talwrii/festival-proof.el"))
+```
